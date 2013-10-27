@@ -1,0 +1,11 @@
+{
+  "name": "Akamai debug headers",
+  "version": "1.0",
+  "description": "Add diagnostic headers to Akamai'd websites",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "manifest_version": 2
+}
